@@ -1,0 +1,17 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {
+        "cheerio": "^0.22.0",
+        "request": "^2.79.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "grab": "node ./grab.js",
+        "parse": "node ./parse.js"
+    },
+    "author": "Andrii Zavada",
+    "license": "ISC"
+}
