@@ -29,7 +29,7 @@ function process(inputFilename, data, key) {
             for (var month in parsed[year]) {
                 for (var day in parsed[year][month]) {
                     var obj = parsed[year][month][day];
-                    if (obj[key] <= i) {
+                    if (obj[key] !== null && obj[key] <= i) {
                         days++;
                     }
                 }
